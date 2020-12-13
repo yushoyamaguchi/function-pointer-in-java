@@ -7,7 +7,12 @@ public class twoint
 {
 public int a;
 public int b;
+public ArrayList<twoint> tiList = new ArrayList<twoint>();
+
  
+twoint(){
+}
+	
 twoint(int i1,int i2){
    a=i1;
    b=i2;
